@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment By Sir Faraz</title>
+    <style>
+        .search{
+    display: flex;
+    align-items: center;
+}
+header{
+    background: rgb(165, 216, 231); 
+    font-family: 'Lato', sans-serif;
+}
+footer{
+    height: 12vh;
+    background: rgb(165, 216, 231); 
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    align-items: center;
+    text-align: center;
+
+}
+nav{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 88px;
+    padding: 0 25px;
+}
+
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none; 
+    padding: 0 23px;
+}
+
+nav ul li a{
+    color: rgb(69, 160, 69);
+    text-decoration: none;
+}
+
+nav ul li a:hover{ 
+    font-weight: bolder;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search input{
+    width: 30vw;
+    height: 27px;
+    border-radius: 5px;
+    margin: 0 16px 0 56px;
+    padding:0 12px;
+}
+
+.search button{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+
+body{
+    background-image: url(./https://web.facebook.com/photo/?fbid=919941148574059&set=ecnf.100016745472008);
+    background-attachment: fixed; 
+    background-size: cover;
+    background-position:center;
+    overflow: scroll;
+    height:1500px
+}
+    h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 139, 97);
+    background-position: center;
+    text-align: center;
+    border: 05px solid black;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 20px;
+}
+footer{
+    height: 12vh;
+    background-color: rgb(0, 139, 97); 
+    color: rgb(17, 16, 16);
+    font-family: 'Lato', sans-serif;
+}
+    </style>
+</head>
+<body style="background-image: url('https://web.facebook.com/photo/?fbid=919941148574059&set=ecnf.100016745472008');">
+    <header>
+        <nav display: flex; flex-direction: column;>
+            <div class="logo">
+                <img src="logo.png" alt="">
+            </div>
+            <ul height: 34px; justify-content: center;>
+                <li><a href="https://www.facebook.com/malik2sami">Home</a></li>
+                <li><a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSMVJTQTcsxCBNHGrJsvxJVFnVSFrFTVJLCSSgJNZDNmdVFnjHxpWvvWnpDSPJSJLQjQBXfq">About</a></li>
+                <li><a href="https://wa.me/+923094025737">Contact</a></li>
+            </ul>
+            <div class="search">
+                <input type="text" name="" id="" placeholder="Search Here">
+                <button class="btn">Search</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <marquee direction="left">This website belongs to Sami-Tahir.  Copying and overwriting not allowed</marquee>
+        <h1 align="center">Web Engineering with Java Lecture # 12<br>
+            Basic tags of HTML 
+            </h1>
+            <h2 align="center">Markup Languages</h2>
+            <p style="background-color: blanchedalmond; text-align: center; box-sizing: content-box;">• Markup languages are designed for the processing, definition  and presentation of text. The language specifies code for  formatting, both the layout and style, within a text file. The  code used to specify the formatting are called tags. HTML is a  an example of a widely known and used markup language. 
+                </p>
+            <h3>HTML (Hyper Text Markup Language) 1991</h3>
+            <p>• HTML was originally designed based on SGML  tagging but without SGML's emphasis on  rigorous markup </p>
+            <h3>What is HTML File? </h3>
+            <p>• HTML stands for Hyper Text Markup Language <br>
+                • An HTML file is a text file containing small markup tags <br> • The markup tags tell the Web browser how to display the page <br> • An HTML file must have an htm or html file extension <br> • An HTML file can be created using a simple text editor <br> • An HTML tags are case-insensitive 
+               <br> Note: If you want to follow the latest web standards, you should  always use lowercase tags  </p>
+            <h3>HTML Elements 
+            </h3>
+            <p>• HTML elements are written with a start tag,  with an end tag, with the content in between: <br> • &lttagname&gtcontent&lt/tagname&gt
+               <br> • The HTML element is everything from the  start tag to the end tag: <br>
+                • &ltp&gt My first HTML paragraph.&lt/p&gt
+             </p>
+             <h3>Empty HTML Elements </h3>
+             <p>• HTML elements with no content are called  empty elements. <br>
+                • &ltbr&gt is an empty element without a closing  tag (the &gtbr&lt tag defines a line break). <br> • Empty elements can be "closed" in the  opening tag like this: &ltbr /&gt.
+                </p>
+            <h3>Paragraphs </h3>
+            <p>• Paragraphs are defined with the &ltp&gt tag. <br>
+                &ltp&gtThis is a paragraph&lt/p&gt  <br>
+                &ltp&gtThis is another paragraph&lt/p&gt <br> HTML automatically adds an  extra blank line before and after a paragraph. 
+                </p>
+                <h3>Headings </h3>
+                <p>• Headings are defined with the &lth1&gt to &lth6&gt tags. <br> &lth1&gt  defines the largest heading  &lth6&gt defines  the smallest heading. 
+                  <br>  &lth1&gtThis is a heading&lt/h1&gt <br>
+                    &lth2&gtThis is a heading&lt/h2&gt  <br>
+                    &lth3&gtThis is a heading&lt/h3&gt   <br>
+                    &lth4&gtThis is a heading&lt/h4&gt    <br>
+                    &lth5&gtThis is a heading&lt/h5&gt <br>
+                    &lth6&gtThis is a heading&lt/h6&gt      <br>
+                    • HTML automatically adds an extra blank line before and after  a heading. 
+                    </p>
+                    <h3>Text Formatting Elements 
+                    </h3>
+                    <p> &ltb&gtThis text is bold&lt/b&gt <br>
+                        • &lti&gtThis text is italic&lt/i&gt <br>
+                        • &ltstrong&gtThis text is strong&lt/strong&gt <br>
+                        • &ltem&gtThis text is emphasized&lt/em&gt <br>
+                        • &lth2&gtHTML &ltmark&gtMarked&lt/mark&gt  <br>
+                        Formatting&lt/h2&gt <br>
+                        • &ltp&gtThis is&ltsup&gtsuperscripted&lt/sup&gttext.&lt/p&gt <br> • &ltp&gtThis is&ltsub&gtsubscripted&lt/sub&gttext.&lt/p&gt <br> • The &lthr&gt tag creates a horizontal line in an HTML  page.</p>
+                    <div s><video controls><source src="Ye Jism Hai Tou Kya - Ali Azmat - Aesthetics اردو.mp4"></video><div><br>
+            
+            <br>
+            <p>Song: Dharia <b>By Nusrat Fateh Ali Khan</b></p>
+            <audio controls><source src="DHARIA_-_August_Diaries_(by_Monoir)_[Official_Video](128k).mp3"></audio>
+
+    </main>
+    <footer>
+        <p text-align="center"; align="center"><b> Copyright &copy; Malik_Sami.com  <b> </p>
+    </footer>
+    </html>
